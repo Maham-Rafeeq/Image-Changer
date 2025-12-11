@@ -6,12 +6,12 @@ function clickme() {
     if (ison === false) {
         ison = true;
         btn.innerText = "Again";
-        img.src = "./Images/img4.jpg";
+        img.src = "./Images/img2.jpg";
 
     }
     else{
         ison = false;
-      img.src ="./Images/img2.jpeg";
+      img.src ="./Images/img1.jpeg";
       btn.innerText ="click";
     }
 }
